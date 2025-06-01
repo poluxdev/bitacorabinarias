@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import numerologyProfiles from "./utils/numerologyProfiles";
 import { calculateExpressionNumber } from "./utils/calculateNumerology";
+import Footer from './Footer';
 import './App.css';
 
 export default function App() {
@@ -127,12 +128,12 @@ export default function App() {
       {!started && (
         <>
           <label>
-            Nombre completo: <br />
+            Dime A Cuál Nombre Respondes Y Te Brindaré Una Gestión Personalizada: <br />
             <input
               type="text"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              placeholder="Ejemplo: Juan Pérez"
+              placeholder="Ejemplo: Vladimir"
               style={{ width: "100%", padding: 8, marginBottom: 12 }}
             />
           </label>
@@ -143,7 +144,7 @@ export default function App() {
               type="number"
               value={capital}
               onChange={(e) => setCapital(e.target.value)}
-              placeholder="Ejemplo: 1000"
+              placeholder="Ejemplo: 100"
               style={{ width: "100%", padding: 8, marginBottom: 12 }}
             />
           </label>
@@ -217,7 +218,8 @@ export default function App() {
           <button className="close-btn" onClick={() => setShowAlert(false)}>×</button>
           Has alcanzado el límite de operaciones por hoy.
         </div>
-      )}
+      )}<Footer />
+
     </div>
   );
 }

@@ -1,0 +1,41 @@
+.footer {
+  background-color: #121212;
+  color: #f0f0f0;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  margin-top: auto;
+}
+
+.footer-text {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.social-icons a {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color 0.3s;
+}
+
+.social-icons a.youtube:hover {
+  color: #ff0000;
+}
+
+.social-icons a.telegram:hover {
+  color: #0088cc;
+}
+
+.social-icons a.github:hover {
+  color: #c0c0c0;
+}
