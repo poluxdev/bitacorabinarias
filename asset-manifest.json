@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/bitacorabinarias/static/css/main.7fadb77b.css",
-    "main.js": "/bitacorabinarias/static/js/main.6e2a2677.js",
+    "main.css": "/bitacorabinarias/static/css/main.8e970d1f.css",
+    "main.js": "/bitacorabinarias/static/js/main.5dfd9eb9.js",
     "index.html": "/bitacorabinarias/index.html",
-    "main.7fadb77b.css.map": "/bitacorabinarias/static/css/main.7fadb77b.css.map",
-    "main.6e2a2677.js.map": "/bitacorabinarias/static/js/main.6e2a2677.js.map"
+    "main.8e970d1f.css.map": "/bitacorabinarias/static/css/main.8e970d1f.css.map",
+    "main.5dfd9eb9.js.map": "/bitacorabinarias/static/js/main.5dfd9eb9.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fadb77b.css",
-    "static/js/main.6e2a2677.js"
+    "static/css/main.8e970d1f.css",
+    "static/js/main.5dfd9eb9.js"
   ]
 }
